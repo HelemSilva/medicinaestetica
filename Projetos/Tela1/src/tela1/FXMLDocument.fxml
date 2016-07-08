@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="397.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="108.0" layoutY="8.0" text="Medicina e Estetica" textAlignment="CENTER" textFill="#e12f2f">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="114.0" fitWidth="368.0" layoutX="18.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="imagens/estetica.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="140.0" layoutX="21.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="imagens/playgoogle.jpeg" />
+         </image>
+      </ImageView>
+      <Separator layoutX="18.0" layoutY="175.0" prefHeight="9.0" prefWidth="361.0" />
+      <Separator layoutX="17.0" layoutY="36.0" prefHeight="16.0" prefWidth="361.0" />
+      <ImageView fitHeight="102.0" fitWidth="109.0" layoutX="195.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="imagens/esteticaservicos.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="232.0" layoutY="184.0" text="ConheÃ§a nossos serviÃ§os" textFill="#511313" />
+      <Label layoutX="19.0" layoutY="192.0" prefHeight="17.0" prefWidth="147.0" text="FaÃ§a o download do nosso " />
+      <Label layoutX="19.0" layoutY="209.0" text="aplicativo para o seu android " />
+      <Label layoutX="19.0" layoutY="226.0" text="e marque seu horario" />
+      <Separator layoutX="15.0" layoutY="314.0" prefHeight="9.0" prefWidth="361.0" />
+      <Hyperlink layoutX="12.0" layoutY="324.0" text="Agende Seu Horario Aqui" />
+      <Label layoutX="201.0" layoutY="327.0" text="Rua Coronel Genuini, 138" />
+      <ImageView fitHeight="102.0" fitWidth="92.0" layoutX="299.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="imagens/esteticaservicos2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="202.0" layoutY="350.0" text="Telefone: (51) 3366-9900" />
+      <Hyperlink layoutX="32.0" layoutY="367.0" text="Trabalhe Conosco" />
+      <Hyperlink layoutX="25.0" layoutY="347.0" text="Area do Trabalhador" />
+      <Label layoutX="202.0" layoutY="370.0" text="medicinaestetica@gmail.com.br" />
+   </children>
+</Pane>
+
